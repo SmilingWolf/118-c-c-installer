@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<app version="1.0">
+		<name>Wiitaly c+C 118 INSTALLER</name>
+		<coder>Wiitaly Team</coder>
+		<version>v1</version>
+		<release_date>12-02-2011</release_date>
+		<short_description>Install cIOS and channel 118</short_description>
+		<long_description>This is a mod IOS 236 Clipper Dr. Installer to install a patched IOS36 slot 118 and Wiitaly 118Channel.
+Small Explanation:
+The original IOS36 cIOS118 is installed in slot 118. So where's the real innovation?
+Simple: in the channel that came with this app!
+Yes, this application also installs a channel capable of starting the boot.elf of the HackMii Installer, allowing you to restore your softmod lost due to a Nintendo official update.
+
+Credits go to Dr. Clipper and the Wiitaly Team (Step, wasabi, student, Shur'tugal, Zahir71, and dafunk Lupo96).
+Find us at wiitaly.altervista.org</long_description>
+  <no_ios_reload /> 
+  </app>
