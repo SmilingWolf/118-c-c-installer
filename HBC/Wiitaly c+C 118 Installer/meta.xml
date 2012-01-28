@@ -2,8 +2,8 @@
 	<app version="1.0">
 		<name>Wiitaly c+C 118 INSTALLER</name>
 		<coder>Wiitaly Team</coder>
-		<version>v1</version>
-		<release_date>12-02-2011</release_date>
+		<version>v1.1</version>
+		<release_date>20120128000000</release_date>
 		<short_description>Install cIOS and Channel 118</short_description>
 		<long_description>This is a mod of Dr.Clipper's IOS 236 Installer that installs a patched IOS36 in slot 118 and the Wiitaly 118Channel.
 Small Explanation:
