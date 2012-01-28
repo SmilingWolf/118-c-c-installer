@@ -80,29 +80,57 @@ void Uninstall_118Channel_all(){
 	if (ret < 0) {
 		printf("\nCan't delete content 0");
 	}
+	else {
+		printf("\nContent 0 successfully deleted!");
+	}
 	ret = ISFS_Delete("/title/00010001/31313843/content/00000001.app");
 	if (ret < 0) {
 		printf("\nCan't delete content 1");
+	}
+	else {
+		printf("\nContent 1 successfully deleted!");
 	}
 	ret = ISFS_Delete("/title/00010001/31313843/content/00000002.app");
 	if (ret < 0) {
 		printf("\nCan't delete content 2");
 	}
+	else {
+		printf("\nContent 2 successfully deleted!");
+	}
 	ret = ISFS_Delete("/title/00010001/31313843/content/title.tmd");
 	if (ret < 0) {
 		printf("\nCan't delete title");
+	}
+	else {
+		printf("\nTitle successfully deleted!");
 	}
 	ret = ISFS_Delete("/ticket/00010001/31313843.tik");
 	if (ret < 0) {
 		printf("\nCan't delete ticket");
 	}
+	else {
+		printf("\nTicket successfully deleted!");
+	}
 	ret = ISFS_Delete("/title/00010001/31313843/content");
 	if (ret < 0) {
 		printf("\nCan't delete content directory");
 	}
+	else {
+		printf("\nContent directory successfully deleted!");
+	}
 	ret = ISFS_Delete("/title/00010001/31313843/data");
 	if (ret < 0) {
 		printf("\nCan't delete data directory");
+	}
+	else {
+		printf("\nData directory successfully deleted!");
+	}
+	ret = ISFS_Delete("/title/00010001/31313843");
+	if (ret < 0) {
+		printf("\nCan't delete main directory");
+	}
+	else {
+		printf("\nMain directory successfully deleted!");
 	}
 	printf("\nDone.\n");
 }

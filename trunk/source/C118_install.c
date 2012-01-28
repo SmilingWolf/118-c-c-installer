@@ -20,28 +20,43 @@ void delete_channel_118() {
 	if (ret < 0) {
 		printf("\nCan't delete content 0");
 	}
+	else {
+	  	printf("\nContent 0 successfully deleted!");
+	}
 	ret = ISFS_Delete("/title/00010001/31313843/content/00000001.app");
 	if (ret < 0) {
 		printf("\nCan't delete content 1");
+	}
+	else {
+	  	printf("\nContent 1 successfully deleted!");
 	}
 	ret = ISFS_Delete("/title/00010001/31313843/content/00000002.app");
 	if (ret < 0) {
 		printf("\nCan't delete content 2");
 	}
+	else {
+	  	printf("\nContent 2 successfully deleted!");
+	}
 	ret = ISFS_Delete("/title/00010001/31313843/content/title.tmd");
 	if (ret < 0) {
 		printf("\nCan't delete title");
 	}
+	else {
+	  	printf("\nTitle successfully deleted!");
+	}
 	ret = ISFS_Delete("/ticket/00010001/31313843.tik");
 	if (ret < 0) {
 		printf("\nCan't delete ticket");
+	}
+	else {
+	  	printf("\nTicket successfully deleted!");
 	}
 	printf("\nDone.\n");
 }
 
 void createdir_channel_118() {
 	s32 ret;
-	ret = ISFS_CreateDir("/title/00010001/31313843", 0, ISFS_OPEN_RW, ISFS_OPEN_RW, ISFS_OPEN_READ);
+	ret = ISFS_CreateDir("/title/00010001/31313843", 0, 3, 3, 1);
 	if (ret < 0) {
 		printf("\nCannot create 118Channel main directory, ret = %d", ret);
 	}

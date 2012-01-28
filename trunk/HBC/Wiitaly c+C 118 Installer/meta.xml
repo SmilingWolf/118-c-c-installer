@@ -13,5 +13,5 @@ Yes, this application also installs a channel capable of starting the boot.elf o
 
 Credits go to Dr.Clipper and to the Wiitaly Team (Step, wasabi, student, Shur'tugal, Zahir71, and dafunk Lupo96).
 Find us on wiitaly.altervista.org</long_description>
-  <no_ios_reload /> 
-  </app>
+  <no_ios_reload/>
+</app>
